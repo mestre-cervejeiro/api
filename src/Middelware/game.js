@@ -3,12 +3,14 @@ const Product = require('../Model/product');
 
 // Usuário vai fazer a cerveja
     let ownBeer = (req, res) => {
-        const {id, malt, hops, yeast, other, time, challenge} = req.body
+        const {id, malt1, hops1, malt2, hops2, time, challenge, fruit, style} = req.body
         Product.create({userId: id,
-            ingredient_1: malt,
-            ingredient_2: hops,
-            ingredient_3: yeast,
-            ingredient_4: other,
+            malt_1: malt1,
+            malt_2: malt2,
+            hops_1: hops1,
+            hops_2: hops2,
+            fruit,
+            style,
             challenge,
             time
         }, (err, product) => {
