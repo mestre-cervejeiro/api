@@ -1,22 +1,26 @@
 Esse é o backend do app Mestre Cervejeiro
 
+Baixar:
+
+git clone https://github.com/mestre-cervejeiro/api.git
+
 #Instalar
 ```
 $ npm install
 ```
 
-#Run express server without nodemon watch
+#Rodar servidor sem nodemon watch
 ```
 $ node app.js
 ```
 
 
-#Run express server with auto watch
+#Rodar servidor express com auto watch
 ```
 $ npm run nodemon
 ```
 
-#Should know
+#Importante
 ####package.json
 ```
 //package.json
