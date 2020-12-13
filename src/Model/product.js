@@ -6,7 +6,7 @@ let Product = new Schema({
         aroma: Number,
         amargor: Number,
         fruit: String,
-        style: String, 
+        estilo: String, 
     time: String,
     challenge: Number,
     beerVote: {
