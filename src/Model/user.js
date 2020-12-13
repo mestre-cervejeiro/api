@@ -11,7 +11,7 @@ let User = new Schema({
     lasName: String,
     age: Number,
     state: String,
-    graduation: String,
+    education: String,
     gender: String  
 });
 
