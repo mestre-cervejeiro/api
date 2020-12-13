@@ -3,10 +3,8 @@ const Schema = mongoose.Schema;
 
 let Product = new Schema({
     userId: {type: Schema.Types.ObjectId, ref: 'User'},
-        malt_1: String,
-        malt_2: String,
-        hops_1: Number,
-        hops_2: Number,
+        aroma: Number,
+        amargor: Number,
         fruit: String,
         style: String, 
     time: String,
